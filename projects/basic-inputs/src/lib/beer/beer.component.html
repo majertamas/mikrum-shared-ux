@@ -1,0 +1,10 @@
+<div *ngIf="randomBeer">
+  <h1>Random Beer</h1>
+  {{ randomBeer?.name }}<br>
+  {{ randomBeer?.style }}<br>
+  {{ randomBeer?.alcohol }}<br>
+</div>
+
+<div *ngIf="!randomBeer">
+  <h1>No Beer :[</h1>
+</div>

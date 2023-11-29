@@ -1,0 +1,4 @@
+{
+  "package": "npm run package",
+  "publish": "npm publish ./dist/basic-inputs/mikrum-basic-inputs-0.0.2.tgz"
+}
